@@ -1,0 +1,19 @@
+<section id="nosotros"><div class="wrap about">
+  <div reveal>
+    <h2>{{ a.title }}</h2><p class="lead">{{ a.lead }}</p>
+    <div class="mv" style="margin-top:32px">
+      <div><h3>Misión</h3><p>{{ a.mission }}</p></div>
+      <div><h3>Visión</h3><p>{{ a.vision }}</p></div>
+    </div>
+  </div>
+  <div class="orb" reveal aria-hidden="true">
+    <div class="ring" style="--i:0;--d:18s;--c:#2EE6D6"></div>
+    <div class="ring" style="--i:12%;--d:12s;--c:#7B61FF"></div>
+    <div class="ring" style="--i:24%;--d:8s;--c:#FFC857"></div>
+    <div class="core">Nova</div>
+  </div>
+</div></section>
+<section id="proceso"><div class="wrap">
+  <h2 reveal>Cómo trabajamos contigo</h2>
+  <div class="steps">@for (s of steps; track s.title) { <div class="step" reveal><h3>{{ s.title }}</h3><p>{{ s.text }}</p></div> }</div>
+</div></section>
