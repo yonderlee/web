@@ -4,12 +4,12 @@ import { Footer } from './layout/footer';
 import { Hero } from './sections/hero';
 import { Services } from './sections/services';
 import { Modalities } from './sections/modalities';
-import { About } from './sections/about';
+import { Quotes } from './sections/quotes';
 import { Contact } from './sections/contact';
 
 @Component({
   selector: 'app-root', changeDetection: CD.OnPush,
-  imports: [Header, Hero, Services, Modalities, About, Contact, Footer],
+  imports: [Header, Hero, Services, Modalities, Quotes, Contact, Footer],
   host: { '(window:scroll)': 'onScroll()', '(window:pointermove)': 'glow.set($event)' },
   templateUrl: './app.html',
 })
