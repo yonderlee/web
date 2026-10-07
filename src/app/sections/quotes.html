@@ -1,4 +1,0 @@
-<section class="quote" aria-label="Frases de inspiración"><div class="wrap">
-  <div class="q">“{{ cur().text }}”</div><div class="qa">{{ cur().by }}</div>
-  <div class="dots">@for (q of quotes; track q.by; let i = $index) { <button [class.on]="i === idx()" [attr.aria-label]="'Frase ' + (i + 1)" (click)="idx.set(i)"></button> }</div>
-</div></section>
