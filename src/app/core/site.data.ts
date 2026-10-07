@@ -36,7 +36,3 @@ export const STEPS = [
   { title: 'Diseñamos', text: 'Planteamos la solución y una interfaz amigable que tu equipo aprenda rápido.' },
   { title: 'Desarrollamos', text: 'Construimos tu sistema, web o app con entregas claras y a tu medida.' },
   { title: 'Te acompañamos', text: 'Soporte, garantía y capacitación para que aproveches todo.' }];
-export const QUOTES = [
-  { text: 'La tecnología tiene valor cuando resuelve problemas reales.', by: 'IdsNova' },
-  { text: 'Cada negocio merece herramientas que se adapten a su forma de trabajar.', by: 'IdsNova' },
-  { text: 'Innovar es convertir buenas ideas en soluciones útiles.', by: 'IdsNova' }];
