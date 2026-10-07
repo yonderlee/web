@@ -1,5 +1,5 @@
 export const COMPANY = {
-  name: 'IdsNova', slogan: 'Innovación digital', tagline: 'Desarrollo de software en Cusco, Perú',
+  name: 'IdsNova', slogan: 'Innovación digital', tagline: 'Desarrollo de software a medida',
   phone: '+51 925 556 283', wa: '51925556283', hours: 'Lunes a viernes, 9 am a 5 pm',
   email: 'info@idsnova.com', city: 'Cusco, Perú',
   social: [
